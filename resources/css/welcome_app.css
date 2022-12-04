@@ -1,0 +1,48 @@
+body {
+    
+    color: black;
+    font-family: Noto;
+}
+
+.container {
+    display: grid;
+    column-gap: 35px;
+    grid-template-columns: auto auto;
+}
+
+.copy_area {
+    display: block;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    background-color: blue;
+    height: 100%;
+}
+
+.form_area {
+    display: block;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    background-color: yellow;
+    height: 100%;
+}
+
+button{
+    background-color:white;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    border-style: none;
+    border-radius: 0.5rem;
+    width: 80%;
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+form{
+    display: block;
+    padding-left: 0.5rem;
+}
+
+form.input{
+    padding-left: 3rem;
+}
